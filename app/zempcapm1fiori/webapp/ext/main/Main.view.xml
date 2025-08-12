@@ -34,7 +34,10 @@
 		</Panel>
 			<Panel expanded="true" height="100%" headerText="Conditions from Filter Bar" expandable="true">
 				<FlexBox direction="Column" fitContainer="true" justifyContent="Start">
-					 <macros:Table id="LineItemTable" metaPath="@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" readOnly="true"/>
+					 <macros:Table id="LineItemTable" metaPath="@com.sap.vocabularies.UI.v1.LineItem" filterBar="FilterBar" readOnly="true"
+					enableSelectAll="true"
+					header="EMPLOYEE DATA"
+					 />
 				</FlexBox>
 				<layoutData>
 					<FlexItemData growFactor="1" shrinkFactor="1" />
