@@ -1,0 +1,11 @@
+GET http://localhost:4004/odata/v4/emp-srv/ReadEmpSet
+
+
+### POST
+POST http://localhost:4004/odata/v4/emp-srv/ReadEmpSet
+Content-Type: application/json
+
+{
+        "EMPID": 1035,
+      "EMPNAME": "Anil"
+}
